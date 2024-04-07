@@ -40,6 +40,7 @@ function ImageFs:new(data)
 
     function filesystem.isDir(path)
         local f = getFile(path)
+        if not f then return false end
         return f.isDir
     end
 

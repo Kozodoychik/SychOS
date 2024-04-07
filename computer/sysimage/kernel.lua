@@ -58,7 +58,7 @@ while true do
                         printError("Thread "..i..": "..msg)
                         os.threading.kill(i)
                     end
-                    --term.redirect(term.native())
+                    term.redirect(term.native())
                 end
             end
         end
