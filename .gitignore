@@ -1,0 +1,4 @@
+start.bat
+computer/devtools/*
+computer/sys_image
+computer/sysimage/umount_all.lua
